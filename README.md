@@ -3,7 +3,7 @@
 ## To start app:
 
 1. Check that node v14+ installed.
-2. Install dependencies from root path, type: `npm i`
+2. Install dependencies from root path, type: `npm ci`
 3. Run the application in one of the modes:
 - Development mode:
 
