@@ -1,0 +1,95 @@
+.header {
+  background: var(--orange);
+  display: flex;
+  align-items: center;  
+}
+
+.header__logo {
+  margin: 0 5px;
+  border: 1px solid white;
+}
+
+.header__back {
+  padding: 4px;
+  width: 12px;
+  margin: 0 5px;
+  border: 1px solid white;
+}
+
+.header__title {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.header__refresh {
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+}
+
+.header__refresh:hover {
+  animation: spin 2s linear infinite;
+}
+
+.header__refresh:focus {
+  transform: scale(1.2);
+}
+
+.header__refresh-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.stories {
+  padding: 8px;
+  background: var(--bg);
+}
+
+.stories__row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.stories__index {
+  color: var(--light-smoke);
+}
+
+.stories__vote-icon {
+  padding: 2px 3px 0px 3px;
+  width: 12px;
+  height: 12px;
+}
+
+.stories__details {
+  color: var(--light-smoke);
+  font-size: 12px;
+}
+
+.stories__open-origin-icon {
+  width: 12px;
+  transition: .2s;
+}
+
+.stories__open-origin-icon:hover {
+  transform: scale(1.2);
+}
+
+.stories__comments-link {
+  color: var(--light-smoke);
+  text-decoration: none;
+}
+
+.stories__comments-link:hover {
+  text-decoration: underline;
+}

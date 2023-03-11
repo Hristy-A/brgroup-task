@@ -1,0 +1,26 @@
+.comment {
+  margin-bottom: 10px;
+}
+
+.comment__title {
+  color: var(--light-smoke);
+  font-size: 12px;
+}
+
+.comment__expand {
+  cursor: pointer;
+}
+
+.comment__expand:hover {
+  text-decoration: underline;
+}
+
+.comment__inner {
+  padding-left: 15px;
+}
+
+.comment__text {
+  word-break: break-all;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
